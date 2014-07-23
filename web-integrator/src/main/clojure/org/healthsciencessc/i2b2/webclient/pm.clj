@@ -17,7 +17,7 @@
 ;; the datastore configured on JBoss for the PM module is used, but have givent the
 ;; ability to set the name of a different datastore to use in the WCI properties
 ;; file.
-(def pm-db {:name (config/lookup :pm.database.name "java:PMBootStrapDS")})
+(def pm-db {:name (config/lookup :pm.database.name "java:/PMBootStrapDS")})
 
 (def sql-select-users
   "SELECT USER_ID as \"user-id\",

@@ -1,4 +1,4 @@
-(ns org.healthsciencessc.i2b2.webclient.user-registration
+(ns org.healthsciencessc.i2b2.webclient.user-management
   (:require [org.healthsciencessc.i2b2.webclient.process.unauthorized :as unauthorized]
             [org.healthsciencessc.i2b2.webclient.ui.action :as action]
             [org.healthsciencessc.i2b2.webclient.ui.form :as form]

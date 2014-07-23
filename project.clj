@@ -12,5 +12,5 @@
   :hooks [leiningen.package.hooks.deploy 
           leiningen.package.hooks.install]
   
-  :sub ["shibboleth" "usage-agreement" "web-integrator"])
+  :sub ["shibboleth" "usage-agreement" "user-management" "web-integrator"])
 

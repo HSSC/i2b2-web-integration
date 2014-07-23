@@ -1,4 +1,4 @@
-(defproject org.healthsciencessc.i2b2/user-registration "0.1.0-SNAPSHOT"
+(defproject org.healthsciencessc.i2b2/user-management "0.1.0-SNAPSHOT"
   :description "Plugin to require a user to sign off on a data usage agreement every time they log into the system."
   
   :url "https://github.com/HSSC/i2b2-webclient"
